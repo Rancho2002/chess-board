@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+.container {
+  width: 730px;
+  height: 730px;
+  background-color: grey;
+  border: 1px solid black;
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+  /* row-gap: 2px; */
+}
+.black {
+  background-color: black;
+}
+.white {
+  background-color: white;
+}
