@@ -12,7 +12,7 @@ body {
   height: 730px;
   /* background-color: grey; */
   border: 1px solid black;
-  box-shadow: 5px 5px 2px black;
+  box-shadow: 5px 0px 15px black;
   margin: auto;
   display: grid;
   grid-template-rows: repeat(8, 1fr);
